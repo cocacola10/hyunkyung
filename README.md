@@ -11,11 +11,12 @@ Com2us 서버캠퍼스 C언어 스터디입니다.
 
 
 <br />
-<br />
 
 ## 📌 commit, merge 규칙
 1. commit - [imoji] [tag] : [yy.mm.dd] [name] [description]
 2. merge - 🔀 merge : [yy.mm.dd] [name] [description]
+
+<br />
 
 ## 🔍 참여 방법
 1. 이 저장소를 `fork` 한다.
