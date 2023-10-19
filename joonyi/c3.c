@@ -94,6 +94,10 @@ int main()
     int a = 10;
     int b = 20;
 
+    int c = 100;
+    write(1, &c, sizeof(c));
+    write(1, "\n", 1);
+
     fn_swap(&a, &b);
 
     write(1, charValue(a), getLength(a));
