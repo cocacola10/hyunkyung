@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 void fn_swap(int *a, int *b){
-     int *temp = a;
-        a = b;
-        b = temp;
-    printf("a의 값 : %d\n", *a);
-    printf("b의 값 : %d\n", *b);
-
+     int temp = *a;
+        *a = *b;
+        *b = temp;
 }
 
 int main(){
@@ -16,5 +13,8 @@ int main(){
     printf("b : %d\n", b);
 
     fn_swap(&a, &b);
+
+    printf("a : %d\n", a);
+    printf("b : %d\n", b);
     return 0;
 }
