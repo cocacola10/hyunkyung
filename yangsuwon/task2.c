@@ -14,7 +14,7 @@ int main(){
 
     fn_swap(&a, &b);
 
-    printf("a : %d\n", a);
-    printf("b : %d\n", b);
+    printf("변경된 a : %d\n", a);
+    printf("변경된 b : %d\n", b);
     return 0;
 }
