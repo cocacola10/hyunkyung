@@ -5,10 +5,10 @@ void fn_sort(int *arr){
 
     for(int i=0; i<COUNT-1; i++){
         for(int j=0; j<COUNT-1-i; j++){
-            if(*(arr+j) > *(arr+j+1)){
-                int temp = *(arr+j);
-                *(arr+j) = *(arr+j+1);
-                *(arr+j+1) = temp;
+            if(arr[j] > arr[j+1]){
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
             }
         }
     }
@@ -26,7 +26,7 @@ int main(){
     }
     printf("\n");
 
-    fn_sort(&data[0]);
+    fn_sort(data);
 
         printf("정렬된 숫자 배열 : ");
     for(int i=0; i<COUNT; i++ ){
