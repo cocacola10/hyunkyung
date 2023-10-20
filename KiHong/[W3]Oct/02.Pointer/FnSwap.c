@@ -21,6 +21,20 @@ int main(void) {
 
 // <Summary> Execute process
 void Execute() {
+    int *a;
+    printf("%p\n", a);
+    *a = 10;
+    printf("%p\n", a);
+    printf("%d\n", *a);
+    a = (int*)malloc(10 * sizeof(int));
+    int n = 1;
+    *a = 10;
+
+    printf("%p\n", a);
+    printf("%d\n", *a);
+
+    free(a);
+
     int inputValue[2];
     char* outputGuide = "Swap : ";
 
