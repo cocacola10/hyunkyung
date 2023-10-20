@@ -14,6 +14,9 @@ int main(void) {
     return 0;
 }
 
+// <Summary> Bubble sort algorithm
+// <Parameter=*a> Target array
+// <Parameter=*b> Size of the array
 void BubbleSort(int array[], int size) {
     for (int k = 0; k < size; k++) {
         for (int j = k + 1; j < size; j++) {
@@ -26,6 +29,9 @@ void BubbleSort(int array[], int size) {
     }
 }
 
+// <Summary> Print out input array value
+// <Parameter=*a> Target array
+// <Parameter=*b> Size of the array
 void PrintOutArray(int array[], int size) {
     for (int k = 0; k < size; k++) {
         printf("%d ", array[k]);
