@@ -5,12 +5,12 @@ void fn_sort(int *arr);
 
 int main(){
     int arr[] = {5,2,1,4,3};
-    int* ptr = &arr[0];
-    fn_sort(ptr);
+    
+    fn_sort(arr);
 
     for (int i = 0; i < 5; i++)
     {
-        printf("%d ", *(ptr + i));
+        printf("%d ", *(arr + i));
     }
     printf("\n");
 }
