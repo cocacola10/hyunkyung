@@ -2,9 +2,9 @@
 
 void fn_swap(int *a, int *b)
 {
-	int temp = int *a;
-	 int *a =  int *b;
-	 int *b =  int temp;
+	int temp = *a;
+	 *a =  *b;
+	 *b =  int temp;
 }
 
 int main(void){
