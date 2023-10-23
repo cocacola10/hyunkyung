@@ -17,7 +17,7 @@
 
 포인터 `p`에는 `k`의 주소가 저장된다. 즉 포인터 `p`는 `k`를 가리키게 된다. 
 
-![IMG_6641.jpg](https://file.notion.so/f/f/6a6d7ad1-2090-4c9c-9d19-57b899271b9a/4076a0fc-43b1-4c30-9d11-05b6a9c61064/IMG_6641.jpg?id=d6122d7a-69a4-499c-946e-a584fc2c5269&table=block&spaceId=6a6d7ad1-2090-4c9c-9d19-57b899271b9a&expirationTimestamp=1698192000000&signature=ct1k8aleHrc9MXNRoCCDaqzQ85-kiOl310buZwCll9U&downloadName=IMG_6641.jpg)
+![pointer_address.jpg](./img/pointer_address.jpg)
 
 | 포인터 변수 선언 | 의미 |
 | --- | --- |
@@ -85,7 +85,7 @@ int main(){
     
     즉 포인터에 배열의 이름을 저장하면 포인터를 마치 배열인 것처럼 쓸 수 있다 !
     
-    ![Untitled](https://file.notion.so/f/f/6a6d7ad1-2090-4c9c-9d19-57b899271b9a/eb19e220-c4e4-4aa2-882e-80471da64cc1/Untitled.png?id=77bed02d-24ff-42a6-94e9-0368a2211244&table=block&spaceId=6a6d7ad1-2090-4c9c-9d19-57b899271b9a&expirationTimestamp=1698192000000&signature=Ey-mVadB1IOMxsebb_2OrF4fbh0z5lYWqSvYb32YXrg&downloadName=Untitled.png)
+    ![array_pointer](./img/array_pointer.png)
     
 
 ### 포인터를 이용하여 배열을 출력하기
