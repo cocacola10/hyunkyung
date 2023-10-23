@@ -1,6 +1,4 @@
-// 배열을 매개변수로 받으면 오름차순으로 정렬하는 기능
-// 프로토타입 void fn_sort(int *arr)
-
+//버블정렬 예제
 #include <stdio.h>
 void main() {
     int i, j;
@@ -28,3 +26,6 @@ void main() {
     // i=1, j=0, arr={1,2,4,3,5}
     // i=1, j=1, X
     // i=1, j=2, arr={1,2,3,4,5}
+
+// 배열을 매개변수로 받으면 오름차순으로 정렬하는 기능만들기
+// 프로토타입 void fn_sort(int *arr)
