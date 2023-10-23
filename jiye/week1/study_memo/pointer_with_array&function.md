@@ -17,7 +17,9 @@
 
 포인터 `p`에는 `k`의 주소가 저장된다. 즉 포인터 `p`는 `k`를 가리키게 된다. 
 
-![pointer_address.jpg](./img/pointer_address.jpg)
+<p align="center">
+ <img src = "./img/pointer_address.jpg", height="50%", width="50%">
+</p>
 
 | 포인터 변수 선언 | 의미 |
 | --- | --- |
