@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-//문자열 s1을 s2로 복사하는 함수
-void fn_strcpy(char* s1, char*s2);
+//문자열 src를 dest로 복사하는 함수
+void fn_strcpy(char* dest, char* src);
 
 int main(){
     char s1[] = "hello world!!";
     char s2[20];
 
-    fn_strcpy(s1, s2);
+    fn_strcpy(s2, s1);
 
     printf("s1: ");
     for(char* ptr_s1 = s1; *ptr_s1!='\0' ; ptr_s1++){
@@ -23,8 +23,8 @@ int main(){
 
 }
 
-void fn_strcpy(char* s1, char* s2){
-    for(int i=0; *(s1+i) !='\0' ; i++){
-        *(s2+i) = *(s1+i);
+void fn_strcpy(char* dest, char* src){
+    for(int i=0; *(src+i) !='\0' ; i++){
+        *(dest+i) = *(src+i);
     }
 }
