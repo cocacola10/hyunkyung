@@ -27,6 +27,7 @@ int main()
     snprintf(output, sizeof(output), "b = %d\n", m);
     write(1, output, strlen(output));
     
+
     return 0;
 }
 
