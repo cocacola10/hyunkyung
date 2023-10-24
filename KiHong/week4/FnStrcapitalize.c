@@ -22,20 +22,24 @@ char *fn_strcapitalize(char *str) {
     
     int k = 0;
     while (*str) {
-        char temp = *str;
+        char currentChar = *str;
+        char previousChar;
+
         if (isalpha(*str)) {
-            // If the alphabet a lowcase and has a space infront of the char
-            // or if the alphabet is a first of the letter
-            if ((islower(temp) && *(str - 1) == ' ') || (k == 0)) {
-                temp = toupper(temp);
+            previousChar = *(str - 1);
+
+            // If the alphabet is a first of the letter
+            // or if the alphabet a lowcase and has a space infront of the char
+            if ((k == 0) || (islower(currentChar) && previousChar == ' ')) {
+                currentChar = toupper(currentChar);
             }
             // If the alphabet is uppercase and doesn't have a space infront of the char
-            else if (isupper(temp) && *(str - 1) != ' ') {
-                temp = tolower(temp);
+            else if (isupper(currentChar) && previousChar != ' ') {
+                currentChar = tolower(currentChar);
             }
         }
 
-        *returnValue = temp;
+        *returnValue = currentChar;
 
         returnValue++;
         str++;
