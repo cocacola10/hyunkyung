@@ -55,8 +55,8 @@ int main(int argc, char ** argv)
  
 Input string has a length of 24
 */
-fn_strlcpy
-fn_strlcat
+//fn_strlcpy
+//fn_strlcat
 
 
 /*
